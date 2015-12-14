@@ -1,12 +1,13 @@
-html {
+ html {
       height: 100%;
     }
     body {
-       width: 800px;
+        background-color: #B21D0A;
        height: 100%;
-    }
+       width: 100%;
+        }
 
-   header {
+    header {
         background-color:red;
         text-align: center;
         color:white;
@@ -15,9 +16,33 @@ html {
         font-size: 20px;
         display: block;
         width: 100%;
+
+     }
+#snowflakeContainer
+{
+    position: absolute;
+    left: 50px;
+    top: 0px;
+}
+.snowflake
+{
+    padding-left: 15px;
+    font-family: Cambria, Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: #FFFFFF;
+    user-select: none;
+    z-index: 1000;
+}
+.snowflake:hover
+{
+    cursor: default;
     }
-    nav {
-        float: center;
+    header img{
+        height:50px;
+    }
+    nav {float: center;
     }
     nav ul {
         padding:;

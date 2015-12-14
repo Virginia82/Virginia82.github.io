@@ -21,7 +21,29 @@ there are definitely some properties you should add!*/
         text-align: center;
         vertical-align: center;
 
-    }
+
+     }
+#snowflakeContainer
+{
+    position: absolute;
+    left: 50px;
+    top: 0px;
+}
+.snowflake
+{
+    padding-left: 15px;
+    font-family: Cambria, Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: black;
+    user-select: none;
+    z-index: 1000;
+}
+.snowflake:hover
+{
+    cursor: default;
+}
     nav {
         display: flex;
         justify-content: space-around;
